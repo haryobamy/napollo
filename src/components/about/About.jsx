@@ -527,12 +527,12 @@ const About = () => {
       </div>
       <div>
       <Row>
-          <Col lg='12' sm='6'>
+          {/* <Col lg='12' sm='6'> */}
           <h1 className={`${classes.head} mb-5 `}>Testimonials</h1>
         
 
     <Testimonial/>
-    </Col>
+    {/* </Col> */}
     </Row>
       </div>
       <div>

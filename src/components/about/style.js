@@ -6,7 +6,7 @@ export default makeStyles(() => ({
   header: {
     color: COLORS.primary,
     fontWeight: "bolder",
-    fontSize: 60,
+    fontSize: 40,
     marginTop: 150,
   },
   head: {
