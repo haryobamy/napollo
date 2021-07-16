@@ -18,5 +18,6 @@ export default makeStyles(() => ({
     width: "400px",
     height: "300px",
     justifyContent: "center",
+    alignItems: "center",
   },
 }));

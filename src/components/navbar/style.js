@@ -8,8 +8,11 @@ export default makeStyles(() => ({
     width: "100%",
     display: "flex",
     alignItems: "center",
-    position: "sticky",
-    justifyContent: "center",
+    // position: "sticky",
+    // justifyContent: "center",
+    // position: "sticky",
+    // top: 0,
+    // zIndex: "999",
   },
   right: {
     display: "flex",
