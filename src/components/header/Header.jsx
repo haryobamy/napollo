@@ -8,10 +8,10 @@ const Header = () => {
     const classes = useStyles();
   return (
     <div>
-      <Row className='container mx-4 mb-5'> 
+      <Row className='container mx-5 mb-5'> 
         <Col lg="6" sm="6">
           <div className={classes.left} >
-            <h3 >
+            <h3 className={classes.h3} >
               More fans, More Gigs, Less Effort Get better feedback, wider
               exposure and deeper industry access without ever switching tabs.
             </h3>
@@ -19,10 +19,13 @@ const Header = () => {
           </div>
         </Col>
         <Col lg="6" sm="6">
-            <img src={headeimg} alt='' className={classes.img}
+        <div>
+        <img src={headeimg} alt='' className={classes.img}/>
+        </div>
+            
             
              
-            />
+            
         </Col>
       </Row>
     </div>

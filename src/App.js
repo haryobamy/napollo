@@ -2,6 +2,7 @@ import React from "react";
 import {} from "reactstrap";
 import { COLORS, SIZES, FONTS } from "./constants";
 import { Home } from "./pages";
+import {Navbar, Footer} from './components'
 import logocolored from "./assets/images/logocolored.png";
 
 const App = () => {
@@ -9,7 +10,9 @@ const App = () => {
     if (window.innerWidth > 500) {
       return (
         <div>
+        
           <Home />
+        
         </div>
       );
     } else {

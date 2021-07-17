@@ -6,8 +6,14 @@ export default makeStyles(() => ({
   header: {
     color: COLORS.primary,
     fontWeight: "bolder",
-    fontSize: 40,
+    fontSize: 60,
     marginTop: 150,
+    // textAlign:"start",
+    // width:500,
+   
+    // marginLeft:0,
+    margin:"40px 0px"
+    
   },
   head: {
     color: COLORS.primary,
@@ -19,11 +25,16 @@ export default makeStyles(() => ({
     textAlign: "center",
   },
   logo: {
-    width: 400,
+    width: 700,
     margin: "100px auto 0px 50px",
   },
   p: {
     color: COLORS.white,
+    fontSize:18,
+    width:380,
+   
+    fontWeight:"100"
+
   },
   link: {
     display: "flex",
@@ -87,10 +98,13 @@ export default makeStyles(() => ({
     marginBottom: 45,
   },
   listen: {
-    marginTop: 50,
-    fontWeight: "bolder",
-    fontSize: 50,
-    margin: "50px 0px 0px 0px",
+    // backgroundColor: COLORS.black,
+    lineHeight:1,
+   
+    
+    fontWeight: "900",
+    fontSize: 59,
+    margin: "50px 10px 0px 0px",
   },
   chooseLogo: {
     width: 90,

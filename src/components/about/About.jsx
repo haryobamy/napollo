@@ -2,6 +2,7 @@ import React from "react";
 import useStyles from "./style";
 import { Button, Col, Row } from "reactstrap";
 import logo from "../../assets/images/logo.jpg";
+// import {,,} from "@material-ui/icons"
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import DoneIcon from "@material-ui/icons/Done";
@@ -150,14 +151,14 @@ const About = () => {
 
   console.log(albumData.like);
   
-
-  const classes = useStyles();
+const classes = useStyles();
   return (
     <div>
-      <div className=" container mx-5 ">
+      <div className="container ">
         <Row>
-          <Col lg="6" sm="6">
-            <h1 className={classes.header}>About Napollo</h1>
+          <Col lg="6" sm="6" className=''>
+          <div style={{textAlign:"start"}}>
+            <p className={classes.header}>About Napollo</p>
             <p className={classes.p}>
               Napollo is a music streaming service that connects artistes to
               listeners in a way that has never been done before.
@@ -167,6 +168,7 @@ const About = () => {
               or skills are, we are here to serve you the best all around the
               world.
             </p>
+            </div>
           </Col>
           <Col lg="6" sm="6">
             <img src={logocolored} alt="" className={classes.logo} />
@@ -175,7 +177,7 @@ const About = () => {
 
         <Row>
           <Col lg="6" sm="6" className="">
-            <h1 className={classes.header}>What's Hot!</h1>
+            <p className={classes.header}>What's Hot!</p>
             <div className='my-5'>
             <div className={classes.link}>
               <h6>Album</h6>
@@ -246,7 +248,7 @@ const About = () => {
           
           </Col>
           <Col lg="6" sm="6">
-            <img src={phoneimg3} alt="" style={{ margin: "200px auto" }} />
+            <img src={phoneimg3} alt="" style={{ margin: "300px auto",width:700 }} />
           </Col>
         </Row>
         {/* expansion section */}
@@ -259,7 +261,7 @@ const About = () => {
             />
           </Col>
           <Col lg="6" sm="6" style={{ marginBottom: 250 }}>
-            <h1 className={classes.header}>Expansion Page</h1>
+            <p className={classes.header}>Expansion Page</p>
             <p className={classes.p}>
               Discover artistes all around the world by their location via the
               expansion page. Also, get to know the top artistes in any location
@@ -327,10 +329,10 @@ const About = () => {
             />
           </Col>
           <Col lg="6" sm="6" className="">
-            <div className="justify-content-center mx-5 ">
-              <h1 className={classes.listen}>
+            <div className="justify-content-center mx-5 my-5 ">
+             <h6> <strong className={classes.listen}>
                 Listen and enjoy all trending music
-              </h1>
+              </strong></h6>
               <ul style={{ listStyleType: "square" }}>
                 <li>What’s hot</li>
                 <li>By genre</li>

@@ -13,7 +13,7 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 const Footer = () => {
   const classes = useStyles();
   return (
-    <div style={{backgroundColor:COLORS.darkGray,  }}>
+    <div className="" style={{backgroundColor:COLORS.darkGray, width:"100%" }}>
         <Row className='container' style={{padding:"70px  0px 70px 70px" , height:300}} >
       <Col lg='2' sm='6' style={{textAlign:'center'}}>
         <img src={logocolored} alt=""  style={{width:100}}/>
@@ -60,7 +60,7 @@ const Footer = () => {
           </div>
          
       </Col>
-      <Col  lg='2' sm='6' className='' style={{textAlign:'center' , }}>
+      <Col  lg='2' sm='6' className='' style={{textAlign:'center' , backgroundColor:COLORS.primary, }}>
           <p  style={{color:COLORS.white, fontSize:10, margin:20}}>Follow Us</p>
           <div>
               <a ><FacebookIcon style={{backgroundColor:COLORS.lightGray ,borderRadius:'100%' , marginRight:10,color:COLORS.white}}/></a>
